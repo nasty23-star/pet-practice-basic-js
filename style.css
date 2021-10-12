@@ -1,0 +1,57 @@
+body {
+  
+    width: 100%;
+    min-height: 400px;
+    margin: 0;
+    padding: 0;
+   background: blue;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  a {
+    margin-left: -20px;
+  }
+  button {
+    margin-bottom: 10px;
+    width: 120px;
+    height: 40px;
+   margin-left: 20px;
+    margin-top: 10px;
+  }
+  .x {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+  }
+  
+  .step {
+    transparent: 0;
+    background-color: blue;
+    width: 100px;
+    height: 20px;
+    margin-left: 50%;
+    color: blue;
+    
+  }
+  .step:hover {
+    padding: 50px;
+  background-color: red;
+    transition: 70;
+  }
+  .later {
+    padding-left: 20px;
+  }
+  .key {
+    padding-top: 300px;
+    
+  }
+  .keykey {
+    margin: 0 auto;
+    
+    width: 80px;
+    color: blue;
+  }
+  .keykey:hover {
+    color: white;
+  }
