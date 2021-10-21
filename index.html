@@ -31,15 +31,29 @@
     <div class="step" id="step">давай. жми снова</div>
     
     
-    <div class="key"><div class="keykey">dfdf</div></div>
+    <div class="key"><div class="keykey">ключ. выход</div></div>
+<div id="app">
 
+<p>{{ now }}</p>
+
+
+    </div>
    <script src="firstFunc.js"></script>
    <script src="justFunc.js"></script>
   <script src="Out.js"></script>
    <script src="Remove.js"></script>
    <script src="secondFunc.js"></script>
    <script src="x script.js"></script>
-   
+   <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+   <script>
+    const app = new Vue ({
+    el: '#app',
+    data: {
+        
+        now: new Date()
+    }
+}) 
+   </script>
 </body>
 </html>
 
